@@ -1,0 +1,242 @@
+[
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 12,
+        "LowerProbability": 12.2,
+        "normalProbability": 0,
+        "higherProbability": 40.5
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 12,
+        "LowerProbability": 58.9,
+        "normalProbability": 0,
+        "higherProbability": 98.9
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 12,
+        "LowerProbability": 43.8,
+        "normalProbability": 0,
+        "higherProbability": 78.9
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 12,
+        "LowerProbability": 4.2,
+        "normalProbability": 0,
+        "higherProbability": 14.2
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 1,
+        "LowerProbability": 16.7,
+        "normalProbability": 0,
+        "higherProbability": 31.2
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 1,
+        "LowerProbability": 61.5,
+        "normalProbability": 0,
+        "higherProbability": 102.1
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 1,
+        "LowerProbability": 41.3,
+        "normalProbability": 0,
+        "higherProbability": 67.8
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 1,
+        "LowerProbability": 6.7,
+        "normalProbability": 0,
+        "higherProbability": 22.3
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 2,
+        "LowerProbability": 21,
+        "normalProbability": 0,
+        "higherProbability": 61.2
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 2,
+        "LowerProbability": 68.5,
+        "normalProbability": 0,
+        "higherProbability": 179.3
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 2,
+        "LowerProbability": 41.8,
+        "normalProbability": 0,
+        "higherProbability": 95.4
+    },
+    {
+        "DataYear": 113,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量氣候正常值範圍",
+        "Month": 2,
+        "LowerProbability": 6.5,
+        "normalProbability": 0,
+        "higherProbability": 19.3
+    }
+]

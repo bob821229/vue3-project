@@ -1,0 +1,1442 @@
+[
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-10-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 50,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-10-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-10-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-10-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 50,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 1,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 2,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "111-12-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 3,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-01-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 4,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-02-24",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 5,
+        "LowerProbability": 30,
+        "normalProbability": 60,
+        "higherProbability": 10
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-03-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 6,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-04-28",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 7,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-05-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 8,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-06-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 40,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 9,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-07-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 40,
+        "normalProbability": 40,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 10,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-08-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 11,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-09-29",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-10-31",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 50,
+        "higherProbability": 30
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "中部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "北部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "東部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 20,
+        "normalProbability": 60,
+        "higherProbability": 20
+    },
+    {
+        "DataYear": 112,
+        "ReleaseDate": "112-11-30",
+        "Area": "南部",
+        "Category": "雨量機率預報",
+        "Month": 12,
+        "LowerProbability": 30,
+        "normalProbability": 50,
+        "higherProbability": 20
+    }
+]

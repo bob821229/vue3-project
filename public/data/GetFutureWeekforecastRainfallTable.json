@@ -1,0 +1,162 @@
+[
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "桃園",
+        "AVG_IA": 13.11,
+        "StationName": "石門水庫",
+        "AVG_Reservoir": 20.45
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "石門",
+        "AVG_IA": 14.44,
+        "StationName": "石門水庫",
+        "AVG_Reservoir": 20.45
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "新竹",
+        "AVG_IA": 8.64,
+        "StationName": "寶山水庫",
+        "AVG_Reservoir": 10.19
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "新竹",
+        "AVG_IA": 8.64,
+        "StationName": "寶山第二水庫",
+        "AVG_Reservoir": 10.81
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "苗栗",
+        "AVG_IA": 6.3,
+        "StationName": "永和山水庫",
+        "AVG_Reservoir": 8.83
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "苗栗",
+        "AVG_IA": 6.3,
+        "StationName": "明德水庫",
+        "AVG_Reservoir": 9.95
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "臺中",
+        "AVG_IA": 3.65,
+        "StationName": "鯉魚潭水庫",
+        "AVG_Reservoir": 6.88
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "臺中",
+        "AVG_IA": 3.65,
+        "StationName": "德基水庫",
+        "AVG_Reservoir": 20.16
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "嘉南",
+        "AVG_IA": 3.26,
+        "StationName": "烏山頭水庫",
+        "AVG_Reservoir": 3.61
+    },
+    {
+        "WeekNo": 1,
+        "DataTime": "112-12-19",
+        "IAName": "嘉南",
+        "AVG_IA": 3.26,
+        "StationName": "曾文水庫",
+        "AVG_Reservoir": 8.67
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "石門",
+        "AVG_IA": 7.72,
+        "StationName": "石門水庫",
+        "AVG_Reservoir": 16.21
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "桃園",
+        "AVG_IA": 7.85,
+        "StationName": "石門水庫",
+        "AVG_Reservoir": 16.21
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "新竹",
+        "AVG_IA": 4.84,
+        "StationName": "寶山水庫",
+        "AVG_Reservoir": 5.32
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "新竹",
+        "AVG_IA": 4.84,
+        "StationName": "寶山第二水庫",
+        "AVG_Reservoir": 5.63
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "苗栗",
+        "AVG_IA": 3.34,
+        "StationName": "永和山水庫",
+        "AVG_Reservoir": 4.22
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "苗栗",
+        "AVG_IA": 3.34,
+        "StationName": "明德水庫",
+        "AVG_Reservoir": 4.45
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "臺中",
+        "AVG_IA": 2.22,
+        "StationName": "鯉魚潭水庫",
+        "AVG_Reservoir": 2.99
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "臺中",
+        "AVG_IA": 2.22,
+        "StationName": "德基水庫",
+        "AVG_Reservoir": 13.72
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "嘉南",
+        "AVG_IA": 1.39,
+        "StationName": "烏山頭水庫",
+        "AVG_Reservoir": 1.66
+    },
+    {
+        "WeekNo": 2,
+        "DataTime": "112-12-26",
+        "IAName": "嘉南",
+        "AVG_IA": 1.39,
+        "StationName": "曾文水庫",
+        "AVG_Reservoir": 3.43
+    }
+]
