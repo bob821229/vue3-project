@@ -6,7 +6,7 @@ import { ref, onMounted, computed, reactive } from 'vue';
 import * as echarts from 'echarts';
 
 import Enumerable from 'linq';
-
+// 測試版控
 // Echarts初始化樣式
 // option = {
 //   xAxis: {
