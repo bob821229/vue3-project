@@ -3,6 +3,8 @@
 import PageTitle from '../components/PageTitle.vue';
 import axios from 'axios';
 import { ref, onMounted, computed, reactive } from 'vue';
+import * as echarts from 'echarts';
+
 import Enumerable from 'linq';
 
 // Echarts初始化樣式
@@ -216,8 +218,91 @@ const getlatesForecastData = async () => {
 onMounted(() => {
     getHistoricalForecast();
     getlatesForecastData();
+    // initChart();
 });
 
+
+// echarts--------------------
+const chart = ref(null);
+const myChart = ref(null);
+// 初始化echarts
+// const initChart = () => {
+//     myChart.value = echarts.init(chart.value);
+//     const option = {
+//         xAxis: {
+//             type: 'category',
+//             data: [],
+//             splitLine: {
+//                 show: false, // 隐藏x轴网格线
+//             },
+//             axisLine: {
+//                 show: false, // 隐藏y轴轴线
+//             },
+//         },
+//         yAxis: {
+//             type: 'value',
+//             axisLine: {
+//                 show: false, // 隐藏y轴轴线
+//             },
+//             axisLabel: {
+//                 show: false, // 隐藏y轴刻度标签
+//             },
+//             splitLine: {
+//                 show: false, // 显示y轴分隔线
+//             },
+//         },
+//         series: [
+//             {
+//                 data: [30], //LowerProbability
+//                 type: 'bar',
+//                 barWidth: 80,
+//                 itemStyle: {
+//                     color: '#EA5C2B' // 自訂第一個系列的顏色
+//                 },
+//                 label: {
+//                     show: true,
+//                     position: 'bottom',
+//                     color: '#999',
+//                     formatter: '{c}%',
+//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
+//                 }
+//             },
+//             {
+//                 data: [20],//normalProbability
+//                 type: 'bar',
+//                 barWidth: 80,
+//                 itemStyle: {
+//                     color: '#39A771' // 自訂第二個系列的顏色
+//                 },
+//                 label: {
+//                     show: true,
+//                     position: 'bottom',
+//                     color: '#999',
+//                     formatter: '{c}%',
+//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
+//                 }
+//             },
+//             {
+//                 data: [50],//higherProbability
+//                 type: 'bar',
+//                 barWidth: 80,
+//                 itemStyle: {
+//                     color: '#007AB5' // 自訂第三個系列的顏色
+//                 },
+//                 label: {
+//                     show: true,
+//                     position: 'bottom',
+//                     color: '#999',
+//                     formatter: '{c}%',
+//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
+//                 }
+//             },
+//         ]
+//     };
+//     myChart.value.setOption(option);
+
+//     window.addEventListener('resize', handleResize);
+// };
 
 // 控制svg變色==============================
 const northIsHovered = ref(false);
@@ -263,7 +348,7 @@ const filterDataByArea = (area) => {
 
 <template>
     <main>
-
+        <!-- <div ref="chart" style="width:100%;height:500px;"></div> -->
 
         <PageTitle>季長期天氣展望</PageTitle>
         <div class="btn_wrap">
