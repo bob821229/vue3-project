@@ -1,85 +1,25 @@
 <script setup>
 
 import PageTitle from '../components/PageTitle.vue';
+import Echarts from '../components/Echarts.vue';
 import axios from 'axios';
 import { ref, onMounted, computed, reactive } from 'vue';
 import * as echarts from 'echarts';
 
-import Enumerable from 'linq';
-// 測試版控
-// Echarts初始化樣式
-// option = {
-//   xAxis: {
-//     type: 'category',
-//     data: [],
-//     splitLine: {
-//       show: false, // 隐藏x轴网格线
-//     },
-//     axisLine: {
-//       show: false, // 隐藏y轴轴线
-//     },
-//   },
-//   yAxis: {
-//     type: 'value',
-//     axisLine: {
-//       show: false, // 隐藏y轴轴线
-//     },
-//     axisLabel: {
-//       show: false, // 隐藏y轴刻度标签
-//     },
-//     splitLine: {
-//       show: false, // 显示y轴分隔线
-//     },
-//   },
-//   series: [
-//     {
-//       data: [30],
-//       type: 'bar',
-//       barWidth: 80,
-//       itemStyle: {
-//         color: '#EA5C2B' // 自訂第一個系列的顏色
-//       },
-//       label: {
-//         show: true,
-//         position: 'bottom',
-//         color: '#999',
-//         formatter: '{c}%',
-//         padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//       }
-//     },
-//     {
-//       data: [20],
-//       type: 'bar',
-//       barWidth: 80,
-//       itemStyle: {
-//         color: '#39A771' // 自訂第二個系列的顏色
-//       },
-//       label: {
-//         show: true,
-//         position: 'bottom',
-//         color: '#999',
-//         formatter: '{c}%',
-//         padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//       }
-//     },
-//     {
-//       data: [50],
-//       type: 'bar',
-//       barWidth: 80,
-//       itemStyle: {
-//         color: '#007AB5' // 自訂第三個系列的顏色
-//       },
-//       label: {
-//         show: true,
-//         position: 'bottom',
-//         color: '#999',
-//         formatter: '{c}%',
-//         padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//       }
-//     },
-//   ]
-// };
+// import Enumerable from 'linq';
 
+const chart1Data = ref([]);
+const chart2Data = ref([]);
+const chart3Data = ref([]);
+const chart4Data = ref([]);
+const chart5Data = ref([]);
+const chart6Data = ref([]);
+const chart7Data = ref([]);
+const chart8Data = ref([]);
+const chart9Data = ref([]);
+const chart10Data = ref([]);
+const chart11Data = ref([]);
+const chart12Data = ref([]);
 // 所有資料年份
 const GetHistoricalYear = [
     112,
@@ -201,6 +141,19 @@ const getlatesForecastData = async () => {
         normalValueRange.value = latesForecastData.value.filter((x) => x.Category === '雨量氣候正常值範圍');
         rainfallProbabilityForecast.value = latesForecastData.value.filter((x) => x.Category === '雨量機率預報');
 
+        chart1Data.value = rainfallProbabilityForecast.value[0];
+        chart2Data.value = rainfallProbabilityForecast.value[1];
+        chart3Data.value = rainfallProbabilityForecast.value[2];
+        chart4Data.value = rainfallProbabilityForecast.value[3];
+        chart5Data.value = rainfallProbabilityForecast.value[4];
+        chart6Data.value = rainfallProbabilityForecast.value[5];
+        chart7Data.value = rainfallProbabilityForecast.value[6];
+        chart8Data.value = rainfallProbabilityForecast.value[7];
+        chart9Data.value = rainfallProbabilityForecast.value[8];
+        chart10Data.value = rainfallProbabilityForecast.value[9];
+        chart11Data.value = rainfallProbabilityForecast.value[10];
+        chart12Data.value = rainfallProbabilityForecast.value[11];
+
         console.log("normalValueRange.value:", normalValueRange.value);
         // console.log("rainfallProbabilityForecast.value:", rainfallProbabilityForecast.value);
 
@@ -215,94 +168,11 @@ const getlatesForecastData = async () => {
 
 
 // 元件掛載時調用該函數或根據需要調用
-onMounted(() => {
-    getHistoricalForecast();
-    getlatesForecastData();
-    // initChart();
+onMounted(async () => {
+    await getHistoricalForecast();
+    await getlatesForecastData();
 });
 
-
-// echarts--------------------
-const chart = ref(null);
-const myChart = ref(null);
-// 初始化echarts
-// const initChart = () => {
-//     myChart.value = echarts.init(chart.value);
-//     const option = {
-//         xAxis: {
-//             type: 'category',
-//             data: [],
-//             splitLine: {
-//                 show: false, // 隐藏x轴网格线
-//             },
-//             axisLine: {
-//                 show: false, // 隐藏y轴轴线
-//             },
-//         },
-//         yAxis: {
-//             type: 'value',
-//             axisLine: {
-//                 show: false, // 隐藏y轴轴线
-//             },
-//             axisLabel: {
-//                 show: false, // 隐藏y轴刻度标签
-//             },
-//             splitLine: {
-//                 show: false, // 显示y轴分隔线
-//             },
-//         },
-//         series: [
-//             {
-//                 data: [30], //LowerProbability
-//                 type: 'bar',
-//                 barWidth: 80,
-//                 itemStyle: {
-//                     color: '#EA5C2B' // 自訂第一個系列的顏色
-//                 },
-//                 label: {
-//                     show: true,
-//                     position: 'bottom',
-//                     color: '#999',
-//                     formatter: '{c}%',
-//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//                 }
-//             },
-//             {
-//                 data: [20],//normalProbability
-//                 type: 'bar',
-//                 barWidth: 80,
-//                 itemStyle: {
-//                     color: '#39A771' // 自訂第二個系列的顏色
-//                 },
-//                 label: {
-//                     show: true,
-//                     position: 'bottom',
-//                     color: '#999',
-//                     formatter: '{c}%',
-//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//                 }
-//             },
-//             {
-//                 data: [50],//higherProbability
-//                 type: 'bar',
-//                 barWidth: 80,
-//                 itemStyle: {
-//                     color: '#007AB5' // 自訂第三個系列的顏色
-//                 },
-//                 label: {
-//                     show: true,
-//                     position: 'bottom',
-//                     color: '#999',
-//                     formatter: '{c}%',
-//                     padding: [20, 0, 0, 0], // 调整与下方文字的距离
-//                 }
-//             },
-//         ]
-//     };
-//     myChart.value.setOption(option);
-
-//     window.addEventListener('resize', handleResize);
-// };
 
 // 控制svg變色==============================
 const northIsHovered = ref(false);
@@ -344,12 +214,23 @@ const filterDataByArea = (area) => {
     return normalValueRange.value.filter(item => item.Area === area);
 }
 
+
 </script>
 
 <template>
     <main>
-        <!-- <div ref="chart" style="width:100%;height:500px;"></div> -->
-
+        <Echarts :chartData="chart1Data"></Echarts>
+        <Echarts :chartData="chart2Data"></Echarts>
+        <Echarts :chartData="chart3Data"></Echarts>
+        <Echarts :chartData="chart4Data"></Echarts>
+        <Echarts :chartData="chart5Data"></Echarts>
+        <Echarts :chartData="chart6Data"></Echarts>
+        <Echarts :chartData="chart7Data"></Echarts>
+        <Echarts :chartData="chart8Data"></Echarts>
+        <Echarts :chartData="chart9Data"></Echarts>
+        <Echarts :chartData="chart10Data"></Echarts>
+        <Echarts :chartData="chart11Data"></Echarts>
+        <Echarts :chartData="chart12Data"></Echarts>
         <PageTitle>季長期天氣展望</PageTitle>
         <div class="btn_wrap">
             <button :class="{ active: active === 1 }" @click="changeView(1)">最新成果預報</button>
