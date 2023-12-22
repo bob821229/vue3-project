@@ -274,13 +274,23 @@ const handleResize = () => {
 onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize);
 });
-
+const echartsOpen = ref(false);
+const btnString = ref('關閉長條圖');
+const echartsViewHandle = () => {
+  echartsOpen.value = !echartsOpen.value;
+  if (echartsOpen.value) {
+    btnString.value = '開啟長條圖';
+  } else {
+    btnString.value = '關閉長條圖';
+  }
+}
 </script>
 
 
 <template>
   <main>
     <PageTitle>有效雨量分析</PageTitle>
+    <button class="echartsBtn" @click="echartsViewHandle">{{ btnString }}</button>
     <div class="content">
       <div class="row">
         <div class="col-2 left_block">
@@ -331,7 +341,7 @@ onBeforeUnmount(() => {
 
         </div>
         <div class="col-10 right_block">
-          <div class="echarts_wrap">
+          <div class="echarts_wrap" :class="{ 'hide': echartsOpen }">
             <div id="echarts" ref="chart" style="width:100%;height:500px;"></div>
           </div>
           <div class=" table_wrap">
@@ -486,6 +496,29 @@ th {
 
 select {
   cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.echartsBtn {
+  position: fixed;
+  right: 10px;
+  top: 150px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #008bcf;
+  coursor: pointer;
+  z-index: 10;
+  border: #008bcf 1px solid;
+  padding: 5px 10px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #008bcf;
+    color: #fff;
+  }
 }
 </style>
 

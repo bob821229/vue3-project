@@ -7,7 +7,7 @@ import { ref, onMounted, computed, reactive } from 'vue';
 import * as echarts from 'echarts';
 
 // import Enumerable from 'linq';
-
+//  中北東南
 const chart1Data = ref([]);
 const chart2Data = ref([]);
 const chart3Data = ref([]);
@@ -219,18 +219,6 @@ const filterDataByArea = (area) => {
 
 <template>
     <main>
-        <Echarts :chartData="chart1Data"></Echarts>
-        <Echarts :chartData="chart2Data"></Echarts>
-        <Echarts :chartData="chart3Data"></Echarts>
-        <Echarts :chartData="chart4Data"></Echarts>
-        <Echarts :chartData="chart5Data"></Echarts>
-        <Echarts :chartData="chart6Data"></Echarts>
-        <Echarts :chartData="chart7Data"></Echarts>
-        <Echarts :chartData="chart8Data"></Echarts>
-        <Echarts :chartData="chart9Data"></Echarts>
-        <Echarts :chartData="chart10Data"></Echarts>
-        <Echarts :chartData="chart11Data"></Echarts>
-        <Echarts :chartData="chart12Data"></Echarts>
         <PageTitle>季長期天氣展望</PageTitle>
         <div class="btn_wrap">
             <button :class="{ active: active === 1 }" @click="changeView(1)">最新成果預報</button>
@@ -408,10 +396,22 @@ const filterDataByArea = (area) => {
                                                 </path>
                                             </g>
                                         </svg>
-                                        <div id="echart2n" class="chart_bar north_bar"></div>
-                                        <div id="echart2w" class="chart_bar west_bar"></div>
-                                        <div id="echart2e" class="chart_bar east_bar"></div>
-                                        <div id="echart2s" class="chart_bar south_bar"> </div>
+                                        <!-- 中1 -->
+                                        <div class="chart_bar west_bar">
+                                            <Echarts :chartData="chart1Data"></Echarts>
+                                        </div>
+                                        <!-- 北1 -->
+                                        <div class="chart_bar north_bar">
+                                            <Echarts :chartData="chart2Data"></Echarts>
+                                        </div>
+                                        <!-- 東1 -->
+                                        <div class="chart_bar east_bar">
+                                            <Echarts :chartData="chart3Data"></Echarts>
+                                        </div>
+                                        <!-- 南1 -->
+                                        <div class="chart_bar south_bar">
+                                            <Echarts :chartData="chart4Data"></Echarts>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -513,10 +513,22 @@ const filterDataByArea = (area) => {
                                                 </path>
                                             </g>
                                         </svg>
-                                        <div id="echart2n" class="chart_bar north_bar"></div>
-                                        <div id="echart2w" class="chart_bar west_bar"></div>
-                                        <div id="echart2e" class="chart_bar east_bar"></div>
-                                        <div id="echart2s" class="chart_bar south_bar"> </div>
+                                        <!-- 中2 -->
+                                        <div class="chart_bar west_bar">
+                                            <Echarts :chartData="chart5Data"></Echarts>
+                                        </div>
+                                        <!-- 北2 -->
+                                        <div class="chart_bar north_bar">
+                                            <Echarts :chartData="chart6Data"></Echarts>
+                                        </div>
+                                        <!-- 東2 -->
+                                        <div class="chart_bar east_bar">
+                                            <Echarts :chartData="chart7Data"></Echarts>
+                                        </div>
+                                        <!-- 南2 -->
+                                        <div class="chart_bar south_bar">
+                                            <Echarts :chartData="chart8Data"></Echarts>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -618,10 +630,22 @@ const filterDataByArea = (area) => {
                                                 </path>
                                             </g>
                                         </svg>
-                                        <div id="echart2n" class="chart_bar north_bar"></div>
-                                        <div id="echart2w" class="chart_bar west_bar"></div>
-                                        <div id="echart2e" class="chart_bar east_bar"></div>
-                                        <div id="echart2s" class="chart_bar south_bar"> </div>
+                                        <!-- 中3 -->
+                                        <div class="chart_bar west_bar">
+                                            <Echarts :chartData="chart9Data"></Echarts>
+                                        </div>
+                                        <!-- 北3 -->
+                                        <div class="chart_bar north_bar">
+                                            <Echarts :chartData="chart10Data"></Echarts>
+                                        </div>
+                                        <!-- 東3 -->
+                                        <div class="chart_bar east_bar">
+                                            <Echarts :chartData="chart11Data"></Echarts>
+                                        </div>
+                                        <!-- 南3 -->
+                                        <div class="chart_bar south_bar">
+                                            <Echarts :chartData="chart12Data"></Echarts>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -918,5 +942,33 @@ th {
         background-color: #459EC6;
 
     }
+}
+
+.map_outer {
+    position: relative;
+}
+
+.chart_bar {
+    position: absolute;
+}
+
+.west_bar {
+    left: 15%;
+    top: 25%;
+}
+
+.north_bar {
+    top: 0;
+    right: 30%;
+}
+
+.east_bar {
+    top: 35%;
+    left: 60%;
+}
+
+.south_bar {
+    bottom: 15%;
+    left: 10%;
 }
 </style>

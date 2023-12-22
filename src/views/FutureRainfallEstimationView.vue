@@ -474,6 +474,7 @@ main {
     height: 26px;
     border-radius: 5px;
     background: #8C8C8C;
+    cursor: pointer;
 }
 
 .marker {
