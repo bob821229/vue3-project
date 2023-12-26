@@ -1,6 +1,8 @@
 <script setup>
 import PageTitle from '../components/PageTitle.vue';
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
+import axios from 'axios';
+// import { getTableData } from '../api/api'
 
 // 小間距
 const smallSpacing = [
@@ -84,7 +86,38 @@ const changeSpacing = (items, week, i) => {
 // 表格資料
 const table1 = ref({})
 const table2 = ref({})
+const tableData = ref([])
+const loading = ref(false);//讀取狀態
+const getTable = async () => {
+    try {
+        loading.value = true;
 
+        await new Promise(resolve => setTimeout(resolve, 2500));  // 模擬等待資料回傳
+
+        // 測試用假資料
+        const res = await axios.get('/data/GetFutureWeekforecastRainfallTable.json');
+
+        tableData.value = res.data;
+
+        // 在每次呼叫 getTable 時，更新 table1 和 table2
+        table1.value = filterTable(1);
+        table2.value = filterTable(2);
+
+        loading.value = false;
+
+    } catch (error) {
+        console.error('获取数据时发生错误：', error);
+
+        loading.value = false;
+    }
+};
+
+const filterTable = (x) => {
+    return tableData.value.filter(item => item.WeekNo === x)
+}
+onMounted(() => {
+    getTable()
+})
 
 </script>
 
@@ -148,7 +181,11 @@ const table2 = ref({})
                     </div>
                     <!-- 表格區域 -->
                     <div class="table_wrap">
-                        <table class="table table-hover">
+                        <button class="btn btn-primary" type="button" disabled v-if="loading">
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                        <table class="table table-hover" v-if="!loading">
                             <thead class="thead_green">
                                 <tr>
                                     <th>管理處</th>
@@ -158,84 +195,18 @@ const table2 = ref({})
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">桃園</button>
-                                    </td>
-                                    <td>26.43</td>
-                                    <td rowspan="2">
-                                        <button type="button" class="btn btn_bor">石門水庫</button>
-                                    </td>
-                                    <td rowspan="2">27.28</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">石門</button>
-                                    </td>
-                                    <td>28.55</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">
-                                        <button type="button" class="btn btn_bor">新竹</button>
-                                    </td>
-                                    <td rowspan="2">22.49</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">寶山水庫</button>
-                                    </td>
-                                    <td>25.22</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">寶山第二水庫</button>
-                                    </td>
-                                    <td>26.12</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">苗栗</button>
-                                    </td>
-                                    <td rowspan="2">18.94</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">永和山水庫</button>
-                                    </td>
-                                    <td>23.52</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">明德水庫</button>
-                                    </td>
-                                    <td>23.58</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">台中</button>
-                                    </td>
-                                    <td rowspan="2">11.94</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">鯉魚潭水庫</button>
-                                    </td>
-                                    <td>18.29</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">德基水庫</button>
-                                    </td>
-                                    <td>29.24</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">嘉南</button>
-                                    </td>
-                                    <td rowspan="2">5.49</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">烏山頭水庫</button>
-                                    </td>
-                                    <td>6.28</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">曾文水庫</button>
-                                    </td>
-                                    <td>10.27</td>
-                                </tr>
-
+                                <template v-for="item in table1" :key="item">
+                                    <tr>
+                                        <td>
+                                            <button type="button" class="btn btn_bor">{{ item.IAName }}</button>
+                                        </td>
+                                        <td>{{ item.AVG_IA }}</td>
+                                        <td>
+                                            <button type="button" class="btn btn_bor">{{ item.StationName }}</button>
+                                        </td>
+                                        <td>{{ item.AVG_Reservoir }}</td>
+                                    </tr>
+                                </template>
                             </tbody>
                         </table>
                     </div>
@@ -294,7 +265,11 @@ const table2 = ref({})
                     </div>
                     <!-- 表格區域 -->
                     <div class="table_wrap">
-                        <table class="table table-hover">
+                        <button class="btn btn-primary" type="button" disabled v-if="loading">
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                        <table class="table table-hover" v-if="!loading">
                             <thead class="thead_green">
                                 <tr>
                                     <th>管理處</th>
@@ -304,84 +279,18 @@ const table2 = ref({})
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">桃園</button>
-                                    </td>
-                                    <td>26.43</td>
-                                    <td rowspan="2">
-                                        <button type="button" class="btn btn_bor">石門水庫</button>
-                                    </td>
-                                    <td rowspan="2">27.28</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">石門</button>
-                                    </td>
-                                    <td>28.55</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">
-                                        <button type="button" class="btn btn_bor">新竹</button>
-                                    </td>
-                                    <td rowspan="2">22.49</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">寶山水庫</button>
-                                    </td>
-                                    <td>25.22</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">寶山第二水庫</button>
-                                    </td>
-                                    <td>26.12</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">苗栗</button>
-                                    </td>
-                                    <td rowspan="2">18.94</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">永和山水庫</button>
-                                    </td>
-                                    <td>23.52</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">明德水庫</button>
-                                    </td>
-                                    <td>23.58</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">台中</button>
-                                    </td>
-                                    <td rowspan="2">11.94</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">鯉魚潭水庫</button>
-                                    </td>
-                                    <td>18.29</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">德基水庫</button>
-                                    </td>
-                                    <td>29.24</td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2"><button type="button" class="btn btn_bor">嘉南</button>
-                                    </td>
-                                    <td rowspan="2">5.49</td>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">烏山頭水庫</button>
-                                    </td>
-                                    <td>6.28</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <button type="button" class="btn btn_bor">曾文水庫</button>
-                                    </td>
-                                    <td>10.27</td>
-                                </tr>
-
+                                <template v-for="item in table2" :key="item">
+                                    <tr>
+                                        <td>
+                                            <button type="button" class="btn btn_bor">{{ item.IAName }}</button>
+                                        </td>
+                                        <td>{{ item.AVG_IA }}</td>
+                                        <td>
+                                            <button type="button" class="btn btn_bor">{{ item.StationName }}</button>
+                                        </td>
+                                        <td>{{ item.AVG_Reservoir }}</td>
+                                    </tr>
+                                </template>
                             </tbody>
                         </table>
                     </div>
@@ -445,6 +354,7 @@ main {
     bottom: 26px;
     width: 165px;
     margin-top: auto;
+    top: 35%;
 }
 
 .entry-marker {
@@ -565,5 +475,12 @@ table button {
         transition: 0.3s;
 
     }
+}
+
+.table_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
 }
 </style>

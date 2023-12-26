@@ -31,6 +31,7 @@ const GetHistoricalYear = [
 const releaseTime = ref("民國112年10月31日")
 const active = ref(1);
 
+// 切換最新成果/歷史成果
 const changeView = (x) => {
     active.value = x;
 }
@@ -953,8 +954,8 @@ th {
 }
 
 .west_bar {
-    left: 15%;
-    top: 25%;
+    left: 20%;
+    top: 30%;
 }
 
 .north_bar {
@@ -964,7 +965,7 @@ th {
 
 .east_bar {
     top: 35%;
-    left: 60%;
+    right: 10%;
 }
 
 .south_bar {

@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, reactive, ref, watch, onBeforeUnmount } from 'vue';
+import { onMounted, ref, watch, onBeforeUnmount, nextTick } from 'vue';
 import PageTitle from '@/components/PageTitle.vue';
 import axios from 'axios';
 import * as echarts from 'echarts';
@@ -97,6 +97,9 @@ watch(
 // 初始化echarts
 const initChart = () => {
   myChart.value = echarts.init(chart.value);
+
+
+
   const option = {
     title: {
       text: `全區雨量圖`,
@@ -208,6 +211,9 @@ const updateChart = (item) => {
         data: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'],
         axisPointer: {
           type: 'shadow'
+        },
+        axisLabel: {
+          fontWeight: 'bolder'
         }
       }
     ],
@@ -216,7 +222,8 @@ const updateChart = (item) => {
         type: 'value',
         name: '有效雨量(mm)',
         axisLabel: {
-          formatter: '{value} mm'
+          formatter: '{value} mm',
+          fontWeight: 'bolder'
         }
       }
     ],
@@ -275,7 +282,9 @@ onBeforeUnmount(() => {
   window.removeEventListener('resize', handleResize);
 });
 const echartsOpen = ref(false);
+const selectOpen = ref(false);
 const btnString = ref('關閉長條圖');
+const selectBtnString = ref('關閉側邊選單');
 const echartsViewHandle = () => {
   echartsOpen.value = !echartsOpen.value;
   if (echartsOpen.value) {
@@ -283,6 +292,22 @@ const echartsViewHandle = () => {
   } else {
     btnString.value = '關閉長條圖';
   }
+  nextTick(() => {
+    myChart.value.resize();
+  });
+}
+const selectOpenHandle = () => {
+  selectOpen.value = !selectOpen.value;
+
+  if (selectOpen.value) {
+    selectBtnString.value = '開啟側邊選單';
+  } else {
+    selectBtnString.value = '關閉側邊選單';
+  }
+
+  nextTick(() => {
+    myChart.value.resize();
+  });
 }
 </script>
 
@@ -291,10 +316,12 @@ const echartsViewHandle = () => {
   <main>
     <PageTitle>有效雨量分析</PageTitle>
     <button class="echartsBtn" @click="echartsViewHandle">{{ btnString }}</button>
+    <button class="selectBtn" :class="{ 'hide': !selectOpen }" @click="selectOpenHandle">{{ selectBtnString }}</button>
     <div class="content">
       <div class="row">
-        <div class="col-2 left_block">
-          <div class="wrap">
+        <div class="col-2 left_block " :class="{ 'hide': selectOpen }">
+          <div class="wrap select-wrap">
+            <button @click="selectOpenHandle" type="button" class="btn-close" aria-label="Close"></button>
             <div class="search row d-flex">
               <div class="col-12"><span>選擇管理處</span></div>
               <div class="col-12">
@@ -340,7 +367,7 @@ const echartsViewHandle = () => {
           </div>
 
         </div>
-        <div class="col-10 right_block">
+        <div class="col-10 right_block " :class="{ 'full': selectOpen }">
           <div class="echarts_wrap" :class="{ 'hide': echartsOpen }">
             <div id="echarts" ref="chart" style="width:100%;height:500px;"></div>
           </div>
@@ -503,10 +530,11 @@ select {
 }
 
 .echartsBtn {
+  width: 120px;
   position: fixed;
-  right: 10px;
-  top: 150px;
-  border-radius: 10px;
+  left: 0;
+  top: 200px;
+  border-radius: 0 10px 10px 0;
   background-color: #fff;
   color: #008bcf;
   coursor: pointer;
@@ -519,6 +547,44 @@ select {
     background-color: #008bcf;
     color: #fff;
   }
+}
+
+.selectBtn {
+  width: 120px;
+  position: fixed;
+  left: 0;
+  top: 150px;
+  border-radius: 0 10px 10px 0;
+  background-color: #fff;
+  color: #008bcf;
+  coursor: pointer;
+  z-index: 10;
+  border: #008bcf 1px solid;
+  padding: 5px 10px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: #008bcf;
+    color: #fff;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.full {
+  width: 100%;
+}
+
+.select-wrap {
+  position: relative;
+}
+
+.btn-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 </style>
 
