@@ -178,8 +178,11 @@ import { RouterLink, RouterView } from 'vue-router'
                                                         <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item text-success fw-bold fs-5"
                                                                                 href="#">耕作分布</a></li>
-                                                                <li><a class="dropdown-item text-success fw-bold fs-5"
-                                                                                href="#">灌溉計畫</a>
+                                                                <li>
+                                                                        <router-link
+                                                                                class="dropdown-item text-success fw-bold fs-5"
+                                                                                to="/IrrigationPlanTendaysView">灌溉計畫</router-link>
+
                                                                 </li>
                                                                 <li><a class="dropdown-item text-success fw-bold fs-5"
                                                                                 href="#">灌溉實施</a></li>
